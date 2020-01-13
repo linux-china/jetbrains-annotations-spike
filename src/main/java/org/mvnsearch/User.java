@@ -8,7 +8,7 @@ import org.jetbrains.annotations.Debug;
  *
  * @author linux_china
  */
-@Debug.Renderer(text = "")
+@Debug.Renderer(text = "\"id: \" + id + \",nick:\" + nick")
 public class User {
     private Integer id;
     private String nick;
