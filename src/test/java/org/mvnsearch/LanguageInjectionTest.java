@@ -58,7 +58,7 @@ public class LanguageInjectionTest {
     @Test
     public void testSubst() {
         @Subst("red")
-        String color = "";
+        String color = "red";
         //language=HTML
         String text = "<span style='color: " + color + "'>Welcome</span>";
     }
