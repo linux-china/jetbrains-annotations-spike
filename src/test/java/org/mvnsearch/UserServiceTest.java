@@ -2,6 +2,8 @@ package org.mvnsearch;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 /**
  * user service test
  *
@@ -29,5 +31,11 @@ public class UserServiceTest {
     public void testFindByUuid() {
         final User user = userService.findByUuid("123");
         System.out.println(user.getId());
+    }
+
+    @Test
+    public void testUnmodifiable() {
+        final List<String> vips = userService.getVips();
+        vips.add("linux_china");
     }
 }
