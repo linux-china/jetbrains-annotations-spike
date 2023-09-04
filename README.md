@@ -7,10 +7,14 @@ JetBrains Annotations
 * Language Injection
 * Debug Render
 * TestOnly: ReflectionUtils & ReflectionTestUtils, spring test MetaAnnotationUtils,
-* Property
+* PropertyKey
 * Misc: @Range
+* Pattern: Regex pattern validation
+* Default value:  `@Subst("red") String color;`
+* MagicConstant
+* Unmodifiable: `@Unmodifiable List<String> vips = List.of("a","b");`
 
 # References
 
 * JetBrains Annotations: https://github.com/JetBrains/java-annotations
-* Contract annotation:  https://www.jetbrains.com/help/idea/contract-annotations.html https://blog.jetbrains.com/idea/2018/05/intellij-idea-2018-2-eap3-advanced-contract-annotations-and-more/
+* Annotations Docs: https://www.jetbrains.com/help/idea/annotating-source-code.html
