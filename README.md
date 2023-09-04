@@ -18,3 +18,5 @@ JetBrains Annotations
 
 * JetBrains Annotations: https://github.com/JetBrains/java-annotations
 * Annotations Docs: https://www.jetbrains.com/help/idea/annotating-source-code.html
+* JetBrains Contract
+  Annotation: https://blog.jetbrains.com/idea/2018/05/intellij-idea-2018-2-eap3-advanced-contract-annotations-and-more/
