@@ -1,7 +1,7 @@
 JetBrains Annotations
 =====================
 
-# Features
+# Examples
 
 * Null detection
 * Language Injection
