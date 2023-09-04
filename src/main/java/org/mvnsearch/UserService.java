@@ -3,7 +3,10 @@ package org.mvnsearch;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import org.jetbrains.annotations.Unmodifiable;
 import org.mvnsearch.annotation.UUID;
+
+import java.util.List;
 
 /**
  * User service
@@ -26,5 +29,10 @@ public class UserService {
     @Nullable
     public User findByUuid(@UUID String uuid) {
         return null;
+    }
+
+    @Unmodifiable
+    public List<String> getVips() {
+        return List.of("Jack", "Tom");
     }
 }
