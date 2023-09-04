@@ -24,4 +24,10 @@ public class UserServiceTest {
         nick = null;
         System.out.println(userService.welcome(nick).length());
     }
+
+    @Test
+    public void testFindByUuid() {
+        final User user = userService.findByUuid("123");
+        System.out.println(user.getId());
+    }
 }
