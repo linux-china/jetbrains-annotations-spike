@@ -3,6 +3,7 @@ package org.mvnsearch;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import org.mvnsearch.annotation.UUID;
 
 /**
  * User service
@@ -20,5 +21,10 @@ public class UserService {
     @Contract("null -> null")
     public String welcome(@Nullable String nick) {
         return nick == null ? null : "Welcome " + nick;
+    }
+
+    @Nullable
+    public User findByUuid(@UUID String uuid) {
+        return null;
     }
 }
